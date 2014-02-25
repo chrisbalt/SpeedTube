@@ -1,0 +1,14 @@
+.SpeedTube div {
+	float: right;
+	color: #999;
+	width: 30px;
+	height: 25px;
+	cursor: pointer;
+	outline: 0 none;
+	text-align: center;
+	margin-top: 7px;
+	font-size: 0.9em;
+}
+.SpeedTube div:hover {
+	color: #fff;
+}

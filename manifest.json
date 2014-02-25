@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "SpeedTube",
+  "version": "1.0",
+  "description": "Speed up (or slow down) the playback speed of YouTube videos.",
+  "permissions": ["tabs", "http://*/*", "https://*/*"],
+  "content_scripts": [{
+    "matches": ["http://www.youtube.com/*", "https://www.youtube.com/*"],
+    "css": ["style.css"],
+    "js": ["jquery.js", "script.js"]
+    }]
+}
